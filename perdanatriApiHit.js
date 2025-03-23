@@ -252,10 +252,10 @@ function generateAestheticNumbers() {
     // ...patterns.geometricSequence(),
     // ...patterns.checkerboard(),
     // ...patterns.centralSymmetry(),
-    ...patterns.aaaabb(),
-    ...patterns.aabbbb(),
-    ...patterns.aaaaab(),
-    ...patterns.abbbbb(),
+    // ...patterns.aaaabb(),
+    // ...patterns.aabbbb(),
+    // ...patterns.aaaaab(),
+    // ...patterns.abbbbb(),
     ...patterns.abacad(),
     ...patterns.aabaab(),
     ...patterns.abbabb(),
@@ -274,8 +274,8 @@ function generateAestheticNumbers() {
     return array;
   }
 
-  // return shuffle(uniqueNumbers).slice(0, 300);
-  return shuffle(uniqueNumbers);
+  return shuffle(uniqueNumbers).slice(0, 100);
+  // return shuffle(uniqueNumbers);
 }
 // API checking function
 async function checkNumbers() {
